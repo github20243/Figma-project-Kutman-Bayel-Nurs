@@ -1,15 +1,15 @@
-import './App.css'
-import Info from './components/Info'
+import React from 'react';
+import './App.css';
+import Info from './components/Info';
 
-function App() {
-
+const App = () => {
   return (
     <>
-     <div>
-      <Info/>
-     </div>
+      <div className="container">
+        <Info />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
