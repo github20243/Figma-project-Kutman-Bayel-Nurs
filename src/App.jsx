@@ -1,15 +1,17 @@
-import styled from '@mui/material'
+import {styled} from '@mui/material'
 import './App.css'
 import Cardswithdescription from './components/Cardswithdescription'
 import Info from './components/Info'
+import Info2 from './components/Info2'
 
 function App() {
 
   return (
     <>
      <StyledContoinet>
-   <Cardswithdescription />
+   {/* <Cardswithdescription /> */}
       <Info/>
+      <Info2/>
      </StyledContoinet> 
     </>
   )
@@ -17,10 +19,10 @@ function App() {
 
 export default App
 
-const StyledContoinet =styled.div`
-  width: 1400px;
+const StyledContoinet = styled("div")`
+  width: 1519px;
   min-height: 600px;
-  border: 1px solid red;
+  margin: 0 auto;
 `
 
 
