@@ -21,6 +21,8 @@ const Info = () => {
 				inventore possimus laboriosam qui nam.{" "}
 			</StyledPText>
       <StyledBtn>Read more</StyledBtn>
+      
+      
 		</StyledContainer>
 	);
 };
@@ -29,7 +31,7 @@ export default Info;
 
 const StyledContainer = styled("div")`
 	background-color: #141e41;
-	width: 1536px;
+	width: 100%;
 	height: 729px;
 	margin: 0 auto;
 `;
