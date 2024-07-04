@@ -1,4 +1,4 @@
-import styled from '@mui/material'
+import {styled} from '@mui/material'
 import './App.css'
 import Cardswithdescription from './components/Cardswithdescription'
 import Info from './components/Info'
@@ -19,9 +19,10 @@ function App() {
 
 export default App
 
-const StyledContoinet =styled.div`
-  width: 1400px;
+const StyledContoinet = styled("div")`
+  width: 1519px;
   min-height: 600px;
+  margin: 0 auto;
 `
 
 
