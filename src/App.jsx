@@ -1,12 +1,12 @@
 import './App.css'
+import Info from './components/Info'
 
 function App() {
 
   return (
     <>
      <div>
-      <input type="text" />
-      <button>CLick</button>
+      <Info/>
      </div>
     </>
   )
