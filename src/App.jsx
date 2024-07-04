@@ -5,7 +5,8 @@ function App() {
   return (
     <>
      <div>
-      nurs
+      <input type="text" />
+      <button>CLick</button>
      </div>
     </>
   )
