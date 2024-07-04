@@ -1,15 +1,15 @@
-import React from 'react';
-import './App.css';
-import Info from './components/Info';
+import './App.css'
+import Info from './components/Info'
 
-const App = () => {
+function App() {
+
   return (
     <>
-      <div className="container">
-        <Info />
-      </div>
+     <div>
+      <Info/>
+     </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
