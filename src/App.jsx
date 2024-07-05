@@ -3,6 +3,7 @@ import './App.css'
 import Cardswithdescription from './components/Cardswithdescription'
 import Info from './components/Info'
 import Info2 from './components/Info2'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
    {/* <Cardswithdescription /> */}
       <Info/>
       <Info2/>
+      <Footer/>
      </StyledContoinet> 
     </>
   )
