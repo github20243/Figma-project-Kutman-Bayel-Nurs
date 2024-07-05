@@ -19,12 +19,10 @@ function App() {
   )
 }
 
-export default App
+export default App;
 
 const StyledContoinet = styled("div")`
-  width: 1519px;
-  min-height: 600px;
+	width: 1519px;
+	min-height: 600px;
   margin: 0 auto;
-`
-
-
+`;

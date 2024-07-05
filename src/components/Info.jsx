@@ -21,8 +21,6 @@ const Info = () => {
 				inventore possimus laboriosam qui nam.{" "}
 			</StyledPText>
       <StyledBtn>Read more</StyledBtn>
-      
-      
 		</StyledContainer>
 	);
 };
@@ -58,6 +56,7 @@ const StyledPText = styled("p")`
   font-family: Arial, Helvetica, sans-serif;
 	font-weight: 400;
 	font-size: 16px;
+  width: 40%;
 `
 
 const StyledBtn = styled('button')`
