@@ -1,6 +1,5 @@
 import {styled} from '@mui/material'
 import './App.css'
-import Cardswithdescription from './components/Cardswithdescription'
 import Info from './components/Info'
 import Info2 from './components/Info2'
 import Footer from './components/Footer'
